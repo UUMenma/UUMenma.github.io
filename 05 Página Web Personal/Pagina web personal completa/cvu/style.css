@@ -1,0 +1,154 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y fuente */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222222; /* Negro */
+    color: #dddddd; /* Gris claro */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background: #333333; /* Gris oscuro */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra negra */
+    margin: 20px;
+    border-top: 8px solid #444444; /* Gris intermedio */
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #555555; /* Gris medio */
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #ffffff; /* Blanco */
+}
+
+.header p {
+    font-size: 1rem;
+    color: #bbbbbb; /* Gris medio */
+}
+
+/* Secciones */
+.info, .experience, .education, .skills {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #555555; /* Gris medio */
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    color: #ffffff; /* Blanco */
+}
+
+/* Listas y elementos de experiencia */
+ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #dddddd; /* Gris claro */
+}
+
+/* Items de experiencia y educación */
+.experience-item, .education-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3, .education-item h3 {
+    font-size: 1.2rem;
+    color: #ffffff; /* Blanco */
+}
+
+.experience-item p, .education-item p {
+    font-size: 0.9rem;
+    color: #aaaaaa; /* Gris claro */
+}
+
+/* Habilidades */
+.skills span {
+    display: inline-block;
+    background: #555555; /* Gris medio */
+    color: #ffffff; /* Blanco */
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.skills span:hover {
+    background: #666666; /* Gris claro */
+    color: #000000; /* Negro */
+}
+
+/* Botones */
+button {
+    background-color: #444444; /* Gris oscuro */
+    color: #ffffff; /* Blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #666666; /* Gris claro */
+    color: #000000; /* Negro */
+}
+
+/* Ajustes de bordes y espaciado */
+th, td {
+    border: 1px solid #555555; /* Gris medio */
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333333; /* Gris oscuro */
+    color: #ffffff; /* Blanco */
+}
+
+thead {
+    background-color: #444444; /* Gris oscuro */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #444444; /* Gris oscuro */
+}
+
+tbody tr:hover {
+    background-color: #555555; /* Gris medio */
+}
